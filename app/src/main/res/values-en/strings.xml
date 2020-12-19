@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Weather for you</string>
+    <string name="network_and_push_text">Network and notification</string>
+    <string name="setting_geoposition">Geolocation</string>
+    <string name="setting_notification">Notification</string>
+    <string name="setting_update_content">Update content over WiFi only</string>
+    <string name="setting_mobile_data_transmission">Modile data transmission</string>
+    <string name="setting_theme">Night theme</string>
+    <string name="setting_language">Language</string>
+    <string name="device">Device</string>
+    <string name="humidity">Humidity</string>
+    <string name="visibility">Visibility</string>
+    <string name="wind_speed">Wind speed</string>
+    <string name="wind_direction">Wind direction</string>
+    <string name="precipitation">Precipitation</string>
+    <string name="pressure">Pressure</string>
+    <string name="sunrise">Sunrise</string>
+    <string name="sunset">Sunset</string>
+    <string name="hello_blank_fragment">Loading</string>
+    <string name="loading">Loading</string>
+    <string name="gps_enable">GPS not enable, enable location service</string>
+    <string name="welcome_in">Welcom to</string>
+    <string name="choice_city">Choise city</string>
+    <string name="my_place">My geoposition</string>
+
+
+    <string-array name="pushArray">
+        <item>Disable</item>
+        <item>1 hour</item>
+        <item>2 hour</item>
+        <item>3 hour</item>
+        <item>6 hour</item>
+        <item>12 hour</item>
+    </string-array>
+
+    <string-array name="pushArrayNumber">
+        <item>0</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+    </string-array>
+
+
+</resources>

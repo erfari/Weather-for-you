@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory
+        android:key="network_and_push"
+        app:title="@string/network_and_push_text" />
+
+    <SwitchPreference
+        app:icon="@drawable/ic_update_content_24"
+        app:key="update_content"
+        app:title="@string/setting_update_content" />
+
+    <Preference
+        app:icon="@drawable/ic_geoposition_24"
+        app:key="geolocation"
+        app:title="@string/setting_geoposition" />
+
+
+    <DropDownPreference
+        android:entries="@array/pushArray"
+        android:entryValues="@array/pushArrayNumber"
+        android:icon="@drawable/ic_notification_24"
+        android:key="dropdown"
+        android:title="Уведомления"
+        app:useSimpleSummaryProvider="true" />
+
+    <PreferenceCategory
+        android:key="device"
+        app:title="@string/device" />
+
+    <SwitchPreference
+        app:icon="@drawable/ic_theme_24"
+        app:key="enable_night_theme"
+        app:title="@string/setting_theme" />
+
+</PreferenceScreen>

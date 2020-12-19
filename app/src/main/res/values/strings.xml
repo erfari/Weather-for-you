@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">Weather for you</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="network_and_push_text">Сеть и уведомления</string>
+    <string name="setting_geoposition">Геопозиция</string>
+    <string name="setting_notification">Уведомления</string>
+    <string name="setting_update_content">Обновление контента только по WiFi</string>
+    <string name="setting_mobile_data_transmission">Сотовые данные</string>
+    <string name="setting_theme">Ночная тема</string>
+    <string name="setting_language">Язык</string>
+    <string name="device">Устройство</string>
+
+    <string name="humidity">Влажность</string>
+    <string name="visibility">Видимость</string>
+    <string name="wind_speed">Скорость ветра</string>
+    <string name="wind_direction">Направление ветра</string>
+    <string name="precipitation">Осадки</string>
+    <string name="pressure">Давление</string>
+    <string name="sunrise">Восход</string>
+    <string name="sunset">Закат</string>
+    <string name="loading">Загрузка</string>
+    <string name="my_place">Мое местоположение</string>
+    <string name="choice_city">выбрать город</string>
+    <string name="welcome_in">Добро пожаловать в</string>
+    <string name="gps_enable">GPS не включен, включить службу определения местоположения</string>
+
+    <string-array name="pushArray">
+        <item>Отключить</item>
+        <item>1 час</item>
+        <item>2 часа</item>
+        <item>3 часа</item>
+        <item>6 часов</item>
+        <item>12 часов</item>
+    </string-array>
+
+    <string-array name="pushArrayNumber">
+        <item>0</item>
+        <item>60</item>
+        <item>120</item>
+        <item>180</item>
+        <item>360</item>
+        <item>720</item>
+    </string-array>
+
+
+</resources>
